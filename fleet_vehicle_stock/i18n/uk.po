@@ -56,3 +56,13 @@ msgstr "Транспортний засіб автопарку"
 #: model:ir.model.fields,field_description:fleet_vehicle_stock.field_product_template__fleet_vehicle_model_id
 msgid "Vehicle Model"
 msgstr "Модель транспортного засобу"
+
+#. module: fleet_vehicle_stock
+#: model:ir.model.fields,field_description:fleet_vehicle_stock.field_stock_picking_type__create_fleet_vehicle
+msgid "Create Fleet Vehicle"
+msgstr "Створити транспортний засіб автопарку"
+
+#. module: fleet_vehicle_stock
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_stock.product_template_form_view
+msgid "create fleet vehicle"
+msgstr "створити транспортний засіб автопарку"

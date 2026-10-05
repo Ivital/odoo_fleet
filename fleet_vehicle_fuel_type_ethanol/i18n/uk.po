@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields.selection,name:fleet_vehicle_fuel_type_ethanol.selection__fleet_vehicle__fuel_type__ethanol
 msgid "Ethanol"
 msgstr "Етанол"
+
+#. module: fleet_vehicle_fuel_type_ethanol
+#: model:ir.model.fields.selection,name:fleet_vehicle_fuel_type_ethanol.selection__fleet_vehicle__fuel_type__flex
+msgid "Flex (Gasoline/Ethanol)"
+msgstr "Гібрид (бензин/етанол)"

@@ -60,3 +60,17 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:fleet_vehicle_category.fleet_vehicle_category_view_form
 msgid "Vehicle Category"
 msgstr "Категорія транспортного засобу"
+
+#. module: fleet_vehicle_category
+#: model_terms:ir.actions.act_window,help:fleet_vehicle_category.fleet_vehicle_category_act_window
+msgid "Create a new vehicle category"
+msgstr "Створити нову категорію транспортних засобів"
+
+#. module: fleet_vehicle_category
+#: model_terms:ir.actions.act_window,help:fleet_vehicle_category.fleet_vehicle_category_act_window
+msgid ""
+"You can define several categories (e.g. tow truck, ambulance, trailer, boat)"
+" for each vehicle."
+msgstr ""
+"Для кожного транспортного засобу можна визначити кілька категорій (наприклад"
+" евакуатор, швидка, причіп, човен)."

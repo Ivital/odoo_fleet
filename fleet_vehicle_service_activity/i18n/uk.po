@@ -17,3 +17,23 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet_vehicle_service_activity.field_res_config_settings__delay_alert_service
 msgid "Delay activity service outdated"
 msgstr "Затримка дії застарілого сервісу"
+
+#. module: fleet_vehicle_service_activity
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_service_activity.res_config_settings_view_form
+msgid "<span> days before date service</span>"
+msgstr "<span> днів до дати обслуговування</span>"
+
+#. module: fleet_vehicle_service_activity
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_service_activity.res_config_settings_view_form
+msgid "<span>Create an activity </span>"
+msgstr "<span>Створити активність </span>"
+
+#. module: fleet_vehicle_service_activity
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_service_activity.res_config_settings_view_form
+msgid "Date Service Activity"
+msgstr "Дата сервісної активності"
+
+#. module: fleet_vehicle_service_activity
+#: model:ir.actions.server,name:fleet_vehicle_service_activity.ir_cron_service_date_activity_generator_ir_actions_server
+msgid "Fleet: Generate service date activity"
+msgstr "Автопарк: створити активність за датою обслуговування"

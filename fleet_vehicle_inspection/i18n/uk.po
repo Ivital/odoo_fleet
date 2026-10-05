@@ -510,3 +510,140 @@ msgstr "Перевірка транспортного засобу"
 #: model:ir.model.fields,field_description:fleet_vehicle_inspection.field_fleet_vehicle_inspection_line__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: fleet_vehicle_inspection
+#: model:ir.model.fields,field_description:fleet_vehicle_inspection.field_fleet_vehicle__inspection_count
+msgid "# Inspection Count"
+msgstr "Кількість перевірок"
+
+#. module: fleet_vehicle_inspection
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_inspection.fleet_vehicle_form_view
+msgid "<span class=\"o_stat_text\"> Inspection</span>"
+msgstr "<span class=\"o_stat_text\"> Перевірка</span>"
+
+#. module: fleet_vehicle_inspection
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_inspection.fleet_vehicle_inspection_form_view
+msgid "Confirm Inspection"
+msgstr "Підтвердити перевірку"
+
+#. module: fleet_vehicle_inspection
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_inspection.fleet_vehicle_inspection_search_view
+msgid "Failed Inspections"
+msgstr "Невдалі перевірки"
+
+#. module: fleet_vehicle_inspection
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection__activity_type_icon
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_item__activity_type_icon
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_line__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: fleet_vehicle_inspection
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection__activity_exception_icon
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_item__activity_exception_icon
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_line__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: fleet_vehicle_inspection
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection__message_needaction
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_item__message_needaction
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_line__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: fleet_vehicle_inspection
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection__message_has_error
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_item__message_has_error
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_line__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: fleet_vehicle_inspection
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_inspection.fleet_vehicle_inspection_search_view
+msgid "Inspection Canceled"
+msgstr "Перевірку скасовано"
+
+#. module: fleet_vehicle_inspection
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_inspection.fleet_vehicle_inspection_search_view
+msgid "Inspection Completed"
+msgstr "Перевірку завершено"
+
+#. module: fleet_vehicle_inspection
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_inspection.fleet_vehicle_inspection_line_image_form_view
+msgid "Inspection Line Images"
+msgstr "Зображення рядка перевірки"
+
+#. module: fleet_vehicle_inspection
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_inspection.fleet_vehicle_inspection_search_view
+msgid "Inspection Not Completed"
+msgstr "Перевірку не завершено"
+
+#. module: fleet_vehicle_inspection
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection__message_needaction_counter
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_item__message_needaction_counter
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_line__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: fleet_vehicle_inspection
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection__message_has_error_counter
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_item__message_has_error_counter
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_line__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: fleet_vehicle_inspection
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection__odometer
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection__odometer_id
+msgid "Odometer measure of the vehicle at the moment of this log"
+msgstr "Показник одометра транспортного засобу на момент цього запису"
+
+#. module: fleet_vehicle_inspection
+#: model:ir.model.fields,field_description:fleet_vehicle_inspection.field_fleet_vehicle_inspection_line_image__inspection_line_id
+msgid "Related Inspection Line"
+msgstr "Пов’язаний рядок перевірки"
+
+#. module: fleet_vehicle_inspection
+#: model:ir.model.fields,field_description:fleet_vehicle_inspection.field_fleet_vehicle_inspection_line__result_description
+msgid "Result Description"
+msgstr "Опис результату"
+
+#. module: fleet_vehicle_inspection
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection__activity_state
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_item__activity_state
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_line__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: fleet_vehicle_inspection
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_inspection.fleet_vehicle_inspection_search_view
+msgid "Successful Inspections"
+msgstr "Успішні перевірки"
+
+#. module: fleet_vehicle_inspection
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection__activity_exception_decoration
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_item__activity_exception_decoration
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_line__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: fleet_vehicle_inspection
+#: model:ir.actions.act_window,name:fleet_vehicle_inspection.fleet_vehicle_inspection_line_act_window
+msgid "Vehicle Inspection Line"
+msgstr "Рядок огляду транспортного засобу"
+
+#. module: fleet_vehicle_inspection
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection__website_message_ids
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_item__website_message_ids
+#: model:ir.model.fields,help:fleet_vehicle_inspection.field_fleet_vehicle_inspection_line__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

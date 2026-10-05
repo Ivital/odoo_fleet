@@ -30,3 +30,14 @@ msgstr "Транспортний засіб"
 #: model:ir.model.fields,field_description:fleet_vehicle_ownership.field_res_users__vehicle_count
 msgid "Number of Vehicles"
 msgstr "Кількість транспортних засобів"
+
+#. module: fleet_vehicle_ownership
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_ownership.view_partner_vehicle_owner_form
+msgid "<span class=\"o_stat_text\"> Vehicles</span>"
+msgstr "<span class=\"o_stat_text\"> Транспортні засоби</span>"
+
+#. module: fleet_vehicle_ownership
+#: model:ir.model.fields,help:fleet_vehicle_ownership.field_res_partner__vehicle_ids
+#: model:ir.model.fields,help:fleet_vehicle_ownership.field_res_users__vehicle_ids
+msgid "Vehicles owned by this partner"
+msgstr "Транспортні засоби, що належать цьому контрагенту"

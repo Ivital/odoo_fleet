@@ -39,3 +39,13 @@ msgstr "Кількість замовлень на закупівлю"
 #: model_terms:ir.ui.view,arch_db:fleet_vehicle_purchase.fleet_vehicle_form_view
 msgid "Purchase Orders"
 msgstr "Замовлення на закупівлю"
+
+#. module: fleet_vehicle_purchase
+#: model:ir.model.fields,field_description:fleet_vehicle_purchase.field_purchase_order_line__fleet_vehicle_from_po
+msgid "Fleet Vehicle From Po"
+msgstr "Транспортний засіб автопарку із закупівлі"
+
+#. module: fleet_vehicle_purchase
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_purchase.fleet_vehicle_form_view
+msgid "show the purchase orders for this vehicle"
+msgstr "показувати замовлення закупівлі для цього транспортного засобу"

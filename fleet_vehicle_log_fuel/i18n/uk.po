@@ -309,3 +309,87 @@ msgstr "Посилання постачальника"
 #: model:ir.model.fields,field_description:fleet_vehicle_log_fuel.field_fleet_vehicle_log_fuel__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: fleet_vehicle_log_fuel
+#: model_terms:ir.actions.act_window,help:fleet_vehicle_log_fuel.fleet_vehicle_log_fuel_action
+msgid "Create a new fuel log entry"
+msgstr "Створити новий запис пального"
+
+#. module: fleet_vehicle_log_fuel
+#: model:ir.model.fields,help:fleet_vehicle_log_fuel.field_fleet_vehicle_log_fuel__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: fleet_vehicle_log_fuel
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_log_fuel.fleet_vehicle_log_fuel_view_graph
+msgid "Fuel Costs Per Month"
+msgstr "Витрати на пальне за місяць"
+
+#. module: fleet_vehicle_log_fuel
+#: model_terms:ir.actions.act_window,help:fleet_vehicle_log_fuel.fleet_vehicle_log_fuel_action
+msgid "Here you can add refuelling entries for all vehicles."
+msgstr "Тут можна додати записи заправок для всіх транспортних засобів."
+
+#. module: fleet_vehicle_log_fuel
+#: model:ir.model.fields,help:fleet_vehicle_log_fuel.field_fleet_vehicle_log_fuel__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: fleet_vehicle_log_fuel
+#: model:ir.model.fields,help:fleet_vehicle_log_fuel.field_fleet_vehicle_log_fuel__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: fleet_vehicle_log_fuel
+#: model:ir.model.fields,help:fleet_vehicle_log_fuel.field_fleet_vehicle_log_fuel__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: fleet_vehicle_log_fuel
+#: model:ir.model.fields,help:fleet_vehicle_log_fuel.field_fleet_vehicle_log_fuel__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: fleet_vehicle_log_fuel
+#: model:ir.model.fields,help:fleet_vehicle_log_fuel.field_fleet_vehicle_log_fuel__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: fleet_vehicle_log_fuel
+#: model:ir.model.fields,help:fleet_vehicle_log_fuel.field_fleet_vehicle_log_fuel__odometer
+#: model:ir.model.fields,help:fleet_vehicle_log_fuel.field_fleet_vehicle_log_fuel__odometer_id
+msgid "Odometer measure of the vehicle at the moment of this log"
+msgstr "Показник одометра транспортного засобу на момент цього запису"
+
+#. module: fleet_vehicle_log_fuel
+#: model:ir.model.fields,help:fleet_vehicle_log_fuel.field_fleet_vehicle_log_fuel__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: fleet_vehicle_log_fuel
+#: model:ir.model.fields,help:fleet_vehicle_log_fuel.field_fleet_vehicle_log_fuel__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: fleet_vehicle_log_fuel
+#: model:ir.model.fields,help:fleet_vehicle_log_fuel.field_fleet_vehicle_log_fuel__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: fleet_vehicle_log_fuel
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_log_fuel.fleet_vehicle_log_fuel_view_form
+msgid "Write here any other information related to the service completed."
+msgstr "Напишіть тут іншу інформацію про завершену послугу."
+
+#. module: fleet_vehicle_log_fuel
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_log_fuel.fleet_vehicle_view_form
+msgid "show the fuel logs for this vehicle"
+msgstr "показувати журнали пального для цього транспортного засобу"

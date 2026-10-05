@@ -172,3 +172,22 @@ msgstr "Сьогоднішні дії"
 #: model_terms:ir.ui.view,arch_db:fleet_vehicle_service_kanban.fleet_vehicle_log_services_view_search
 msgid "Unread Messages"
 msgstr "Непрочитані повідомлення"
+
+#. module: fleet_vehicle_service_kanban
+#: model_terms:ir.actions.act_window,help:fleet_vehicle_service_kanban.fleet_vehicle_log_services_stage_action
+msgid "Create a new stage for vehicle services"
+msgstr "Створити новий етап обслуговування транспортних засобів"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.constraint,message:fleet_vehicle_service_kanban.constraint_fleet_vehicle_log_services_tag_name_uniq
+msgid "Tag name already exists !"
+msgstr "Тег із такою назвою вже існує!"
+
+#. module: fleet_vehicle_service_kanban
+#: model_terms:ir.actions.act_window,help:fleet_vehicle_service_kanban.fleet_vehicle_log_services_stage_action
+msgid ""
+"You can customize available stages to track the evolution of\n"
+"                each service. Example: registered, finished, etc."
+msgstr ""
+"Можна налаштувати доступні етапи для відстеження розвитку\n"
+"                кожної послуги. Наприклад: зареєстровано, завершено тощо."
