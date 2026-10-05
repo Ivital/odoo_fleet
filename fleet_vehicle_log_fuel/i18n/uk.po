@@ -408,3 +408,9 @@ msgstr "Журнал пального транспортних засобів"
 #: model:ir.model.fields,help:fleet_vehicle_log_fuel.field_fleet_vehicle_log_fuel__vehicle_id
 msgid "Vehicle concerned by this log"
 msgstr "Транспортний засіб, якого стосується цей журнал"
+
+#. module: fleet_vehicle_log_fuel
+#. odoo-python
+#: code:addons/fleet_vehicle_log_fuel/models/fleet_vehicle_log_fuel.py:0
+msgid "Emptying the odometer value of a vehicle is not allowed."
+msgstr "Не дозволено очищати значення одометра транспортного засобу."

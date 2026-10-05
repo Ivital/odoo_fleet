@@ -85,3 +85,13 @@ msgid ""
 msgstr ""
 "Товари з прапорцем «Створює транспортний засіб автопарку» автоматично "
 "перетворюватимуться на транспортний засіб."
+
+#. module: fleet_vehicle_stock
+#. odoo-python
+#: code:addons/fleet_vehicle_stock/models/stock_move.py:0
+msgid ""
+"The product '%s' is configured to create a fleet vehicle but vehicle model "
+"is not configured in the product."
+msgstr ""
+"Товар «%s» налаштовано для створення транспортного засобу, але модель "
+"транспортного засобу в товарі не налаштована."

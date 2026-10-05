@@ -367,3 +367,15 @@ msgstr "Історія комунікації через вебсайт"
 #: model:ir.model,name:fleet_vehicle_usage.model_fleet_vehicle_usage
 msgid "Vehicle Usage"
 msgstr "Використання транспортного засобу"
+
+#. module: fleet_vehicle_usage
+#. odoo-python
+#: code:addons/fleet_vehicle_usage/models/fleet_vehicle_usage.py:0
+msgid "Every driver can only drive a vehicle at once!"
+msgstr "Кожен водій може одночасно керувати лише одним транспортним засобом!"
+
+#. module: fleet_vehicle_usage
+#. odoo-python
+#: code:addons/fleet_vehicle_usage/models/fleet_vehicle_usage.py:0
+msgid "Every vehicle can only be picked once at the same time!"
+msgstr "Кожен транспортний засіб можна вибрати лише один раз одночасно!"

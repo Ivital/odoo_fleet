@@ -667,3 +667,28 @@ msgstr "Рядок перевірки транспортного засобу"
 #: model:ir.model,name:fleet_vehicle_inspection.model_fleet_vehicle_inspection_line_image
 msgid "Fleet Vehicle Inspection Line Image"
 msgstr "Зображення рядка перевірки транспортного засобу"
+
+#. module: fleet_vehicle_inspection
+#. odoo-python
+#: code:addons/fleet_vehicle_inspection/models/fleet_vehicle_inspection.py:0
+msgid "Emptying the odometer value of a vehicle is not allowed."
+msgstr "Не дозволено очищати значення одометра транспортного засобу."
+
+#. module: fleet_vehicle_inspection
+#. odoo-python
+#: code:addons/fleet_vehicle_inspection/models/fleet_vehicle_inspection.py:0
+msgid "Inspection cannot be completed. There are uninspected items."
+msgstr "Перевірку неможливо завершити. Є неперевірені елементи."
+
+#. module: fleet_vehicle_inspection
+#. odoo-python
+#: code:addons/fleet_vehicle_inspection/models/fleet_vehicle_inspection.py:0
+msgid "Must select service type"
+msgstr "Потрібно вибрати тип послуги"
+
+#. module: fleet_vehicle_inspection
+#. odoo-python
+#: code:addons/fleet_vehicle_inspection/models/fleet_vehicle_inspection.py:0
+msgid "Only inspections in 'draft' or 'cancel' states can be confirmed"
+msgstr ""
+"Підтверджувати можна лише перевірки у стані «чернетка» або «скасовано»"
