@@ -1,0 +1,97 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.actions.act_window,name:fleet_vehicle_service_kanban.mail_activity_type_action_config_fleet_services
+#: model:ir.ui.menu,name:fleet_vehicle_service_kanban.mail_activity_type_menu_config_fleet_services
+msgid "Activity Types"
+msgstr "Типи активностей"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_tag__color
+msgid "Color Index"
+msgstr "Індекс кольору"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_stage__create_uid
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_tag__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_stage__create_date
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_tag__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_stage__display_name
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_tag__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_stage__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services__priority
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_service_kanban.fleet_vehicle_log_services_view_form
+msgid "Priority"
+msgstr "Пріоритет"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services__user_id
+msgid "Responsible"
+msgstr "Відповідальний"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_stage__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.ui.menu,name:fleet_vehicle_service_kanban.fleet_vehicle_log_services_conf_menu
+msgid "Services Logs"
+msgstr "Журнали послуг"
+
+#. module: fleet_vehicle_service_kanban
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_service_kanban.fleet_vehicle_log_services_view_search
+msgid "Stage"
+msgstr "Етап"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_tag__name
+msgid "Tag Name"
+msgstr "Назва тегу"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services__tag_ids
+msgid "Tags"
+msgstr "Теги"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.actions.act_window,name:fleet_vehicle_service_kanban.fleet_vehicle_log_services_stage_action
+#: model:ir.model,name:fleet_vehicle_service_kanban.model_fleet_vehicle_log_services_stage
+#: model:ir.ui.menu,name:fleet_vehicle_service_kanban.fleet_vehicle_log_services_stage_menu
+msgid "Vehicle Services Stages"
+msgstr "Етапи обслуговування транспортних засобів"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.actions.act_window,name:fleet_vehicle_service_kanban.fleet_vehicle_log_services_tag_action
+#: model:ir.ui.menu,name:fleet_vehicle_service_kanban.fleet_vehicle_log_services_tag_menu
+msgid "Vehicle Services Tags"
+msgstr "Теги послуг транспортних засобів"
