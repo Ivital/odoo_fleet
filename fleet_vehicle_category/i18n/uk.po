@@ -43,3 +43,20 @@ msgstr "Опис"
 #: model:ir.model.fields,field_description:fleet_vehicle_category.field_fleet_vehicle_category__display_name
 msgid "Display Name"
 msgstr "Відображувана назва"
+
+#. module: fleet_vehicle_category
+#: model:ir.model.fields,field_description:fleet_vehicle_category.field_fleet_vehicle_category__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: fleet_vehicle_category
+#: model:ir.model.fields,field_description:fleet_vehicle_category.field_fleet_vehicle_category__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: fleet_vehicle_category
+#: model:ir.actions.act_window,name:fleet_vehicle_category.fleet_vehicle_category_act_window
+#: model:ir.model.fields,field_description:fleet_vehicle_category.field_fleet_vehicle__vehicle_category_id
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_category.fleet_vehicle_category_view_form
+msgid "Vehicle Category"
+msgstr "Категорія транспортного засобу"

@@ -54,3 +54,13 @@ msgstr "Послідовність"
 #: model:ir.model.fields,field_description:fleet_vehicle_configuration.field_fleet_vehicle_configuration__vehicle_id
 msgid "Vehicle"
 msgstr "Транспортний засіб"
+
+#. module: fleet_vehicle_configuration
+#: model:ir.model.fields,field_description:fleet_vehicle_configuration.field_fleet_vehicle_configuration__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: fleet_vehicle_configuration
+#: model:ir.model.fields,field_description:fleet_vehicle_configuration.field_fleet_vehicle_configuration__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

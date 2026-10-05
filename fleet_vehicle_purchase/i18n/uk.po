@@ -18,3 +18,24 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet_vehicle_purchase.field_purchase_order__fleet_vehicle_id
 msgid "Vehicle"
 msgstr "Транспортний засіб"
+
+#. module: fleet_vehicle_purchase
+#: model:ir.model.fields,field_description:fleet_vehicle_purchase.field_purchase_order_line__fleet_vehicle_id
+msgid "Fleet Vehicle"
+msgstr "Транспортний засіб автопарку"
+
+#. module: fleet_vehicle_purchase
+#: model:ir.model,name:fleet_vehicle_purchase.model_purchase_order
+#: model:ir.model.fields,field_description:fleet_vehicle_purchase.field_fleet_vehicle__purchase_order_ids
+msgid "Purchase Order"
+msgstr "Замовлення на закупівлю"
+
+#. module: fleet_vehicle_purchase
+#: model:ir.model.fields,field_description:fleet_vehicle_purchase.field_fleet_vehicle__purchase_order_count
+msgid "Purchase Order Count"
+msgstr "Кількість замовлень на закупівлю"
+
+#. module: fleet_vehicle_purchase
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_purchase.fleet_vehicle_form_view
+msgid "Purchase Orders"
+msgstr "Замовлення на закупівлю"

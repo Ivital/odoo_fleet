@@ -24,3 +24,9 @@ msgstr "Власник"
 #: model:ir.model.fields,field_description:fleet_vehicle_ownership.field_res_users__vehicle_ids
 msgid "Vehicle"
 msgstr "Транспортний засіб"
+
+#. module: fleet_vehicle_ownership
+#: model:ir.model.fields,field_description:fleet_vehicle_ownership.field_res_partner__vehicle_count
+#: model:ir.model.fields,field_description:fleet_vehicle_ownership.field_res_users__vehicle_count
+msgid "Number of Vehicles"
+msgstr "Кількість транспортних засобів"

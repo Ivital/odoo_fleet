@@ -23,3 +23,36 @@ msgstr "Запаси"
 #: model:ir.model.fields,field_description:fleet_vehicle_stock.field_fleet_vehicle__lot_id
 msgid "Serial #"
 msgstr "Серійний №"
+
+#. module: fleet_vehicle_stock
+#: model:ir.model.fields,field_description:fleet_vehicle_stock.field_product_product__create_fleet_vehicle
+#: model:ir.model.fields,field_description:fleet_vehicle_stock.field_product_template__create_fleet_vehicle
+msgid "Creates a Fleet Vehicle"
+msgstr "Створює транспортний засіб автопарку"
+
+#. module: fleet_vehicle_stock
+#: model:ir.model.fields,field_description:fleet_vehicle_stock.field_fleet_vehicle__current_stock_location_id
+msgid "Current Inventory Location"
+msgstr "Поточне місце інвентаризації"
+
+#. module: fleet_vehicle_stock
+#: model:ir.model.fields,field_description:fleet_vehicle_stock.field_fleet_vehicle_model__product_id
+msgid "Default Product"
+msgstr "Типовий товар"
+
+#. module: fleet_vehicle_stock
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_stock.product_template_form_view
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_stock.product_variant_easy_edit_view
+msgid "Fleet"
+msgstr "Автопарк"
+
+#. module: fleet_vehicle_stock
+#: model:ir.model.fields,field_description:fleet_vehicle_stock.field_stock_lot__fleet_vehicle_id
+msgid "Fleet Vehicle"
+msgstr "Транспортний засіб автопарку"
+
+#. module: fleet_vehicle_stock
+#: model:ir.model.fields,field_description:fleet_vehicle_stock.field_product_product__fleet_vehicle_model_id
+#: model:ir.model.fields,field_description:fleet_vehicle_stock.field_product_template__fleet_vehicle_model_id
+msgid "Vehicle Model"
+msgstr "Модель транспортного засобу"

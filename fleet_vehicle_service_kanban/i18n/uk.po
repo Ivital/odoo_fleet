@@ -95,3 +95,80 @@ msgstr "Етапи обслуговування транспортних зас�
 #: model:ir.ui.menu,name:fleet_vehicle_service_kanban.fleet_vehicle_log_services_tag_menu
 msgid "Vehicle Services Tags"
 msgstr "Теги послуг транспортних засобів"
+
+#. module: fleet_vehicle_service_kanban
+#: model_terms:ir.actions.act_window,help:fleet_vehicle_service_kanban.fleet_vehicle_log_services_tag_action
+msgid "Add a new tag"
+msgstr "Додати новий тег"
+
+#. module: fleet_vehicle_service_kanban
+#: model:fleet.vehicle.log.services.stage,name:fleet_vehicle_service_kanban.fleet_vehicle_log_services_stage_draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_stage__fold
+msgid "Folded in Kanban"
+msgstr "Згорнуто в Kanban"
+
+#. module: fleet_vehicle_service_kanban
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_service_kanban.fleet_vehicle_log_services_view_search
+msgid "Future Activities"
+msgstr "Майбутні дії"
+
+#. module: fleet_vehicle_service_kanban
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_service_kanban.fleet_vehicle_log_services_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields.selection,name:fleet_vehicle_service_kanban.selection__fleet_vehicle_log_services__priority__1
+msgid "Important"
+msgstr "Важливо"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_stage__write_uid
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_tag__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_stage__write_date
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_tag__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: fleet_vehicle_service_kanban
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_service_kanban.fleet_vehicle_log_services_view_search
+msgid "Late Activities"
+msgstr "Прострочені дії"
+
+#. module: fleet_vehicle_service_kanban
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_service_kanban.fleet_vehicle_log_services_view_search
+msgid "My Services"
+msgstr "Мої послуги"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields.selection,name:fleet_vehicle_service_kanban.selection__fleet_vehicle_log_services__priority__0
+msgid "Normal"
+msgstr "Звичайний"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,field_description:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services__stage_id
+msgid "Service Stage"
+msgstr "Етап обслуговування"
+
+#. module: fleet_vehicle_service_kanban
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_service_kanban.fleet_vehicle_log_services_view_search
+msgid "Show all records which has next action date is before today"
+msgstr "Показувати всі записи, у яких дата наступної дії раніше сьогоднішньої"
+
+#. module: fleet_vehicle_service_kanban
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_service_kanban.fleet_vehicle_log_services_view_search
+msgid "Today Activities"
+msgstr "Сьогоднішні дії"
+
+#. module: fleet_vehicle_service_kanban
+#: model_terms:ir.ui.view,arch_db:fleet_vehicle_service_kanban.fleet_vehicle_log_services_view_search
+msgid "Unread Messages"
+msgstr "Непрочитані повідомлення"
