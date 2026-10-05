@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet_vehicle_fuel_capacity.field_fleet_vehicle__fuel_capacity
 msgid "Fuel Capacity (L)"
 msgstr "Місткість палива (л)"
+
+#. module: fleet_vehicle_fuel_capacity
+#: model:ir.model.constraint,message:fleet_vehicle_fuel_capacity.constraint_fleet_vehicle_check_fuel_capacity
+msgid "Fuel capacity must be greater than or equal to 0"
+msgstr "Місткість пального має бути більшою або дорівнювати 0"

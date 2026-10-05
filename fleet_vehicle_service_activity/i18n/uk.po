@@ -37,3 +37,8 @@ msgstr "Дата сервісної активності"
 #: model:ir.actions.server,name:fleet_vehicle_service_activity.ir_cron_service_date_activity_generator_ir_actions_server
 msgid "Fleet: Generate service date activity"
 msgstr "Автопарк: створити активність за датою обслуговування"
+
+#. module: fleet_vehicle_service_activity
+#: model:mail.activity.type,name:fleet_vehicle_service_activity.mail_act_fleet_service_to_check
+msgid "Service to Check"
+msgstr "Сервіс для перевірки"

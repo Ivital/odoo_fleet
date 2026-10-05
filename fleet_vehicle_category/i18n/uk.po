@@ -74,3 +74,15 @@ msgid ""
 msgstr ""
 "Для кожного транспортного засобу можна визначити кілька категорій (наприклад"
 " евакуатор, швидка, причіп, човен)."
+
+#. module: fleet_vehicle_category
+#: model:ir.model,name:fleet_vehicle_category.model_fleet_vehicle_category
+msgid "Classification of vehicle, eg. tow truck, ambulance, trailer, boat"
+msgstr ""
+"Класифікація транспортного засобу, напр. евакуатор, швидка, причіп, човен"
+
+#. module: fleet_vehicle_category
+#: model:ir.model.fields,help:fleet_vehicle_category.field_fleet_vehicle__vehicle_category_id
+#: model:ir.model.fields,help:fleet_vehicle_category.field_fleet_vehicle_category__name
+msgid "Eg. Tow truck, Ambulance, Trailer, Boat"
+msgstr "Напр.: евакуатор, швидка допомога, причіп, човен"

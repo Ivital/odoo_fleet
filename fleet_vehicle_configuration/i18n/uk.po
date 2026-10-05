@@ -64,3 +64,13 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:fleet_vehicle_configuration.field_fleet_vehicle_configuration__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: fleet_vehicle_configuration
+#: model:ir.model.fields,help:fleet_vehicle_configuration.field_fleet_vehicle__configuration_ids
+msgid "Define several configurations for a vehicle"
+msgstr "Визначте кілька конфігурацій для транспортного засобу"
+
+#. module: fleet_vehicle_configuration
+#: model:ir.model,name:fleet_vehicle_configuration.model_fleet_vehicle_configuration
+msgid "Manage vehicle configuration"
+msgstr "Керування конфігурацією транспортного засобу"

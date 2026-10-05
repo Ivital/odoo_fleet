@@ -66,3 +66,22 @@ msgstr "Створити транспортний засіб автопарку"
 #: model_terms:ir.ui.view,arch_db:fleet_vehicle_stock.product_template_form_view
 msgid "create fleet vehicle"
 msgstr "створити транспортний засіб автопарку"
+
+#. module: fleet_vehicle_stock
+#: model:ir.model.constraint,message:fleet_vehicle_stock.constraint_product_template_non_product_tracking_for_vehicle_model
+msgid ""
+"It is mandatory to configure the traceability by serial number in order to "
+"be able to configure the vehicle model of the fleet in this product."
+msgstr ""
+"Щоб мати змогу налаштувати модель транспортного засобу автопарку для цього "
+"товару, обов’язково потрібно налаштувати простежуваність за серійним "
+"номером."
+
+#. module: fleet_vehicle_stock
+#: model:ir.model.fields,help:fleet_vehicle_stock.field_stock_picking_type__create_fleet_vehicle
+msgid ""
+"Products with the \"Creates a Fleet Vehicle\" flagwill automatically be "
+"converted to an Fleet Vehicle."
+msgstr ""
+"Товари з прапорцем «Створює транспортний засіб автопарку» автоматично "
+"перетворюватимуться на транспортний засіб."

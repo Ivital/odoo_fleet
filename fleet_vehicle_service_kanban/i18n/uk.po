@@ -191,3 +191,54 @@ msgid ""
 msgstr ""
 "Можна налаштувати доступні етапи для відстеження розвитку\n"
 "                кожної послуги. Наприклад: зареєстровано, завершено тощо."
+
+#. module: fleet_vehicle_service_kanban
+#: model:mail.message.subtype,description:fleet_vehicle_service_kanban.mail_message_subtype_fleet_service_purchaser_updated
+#: model:mail.message.subtype,name:fleet_vehicle_service_kanban.mail_message_subtype_fleet_service_purchaser_updated
+msgid "Changed Driver"
+msgstr "Водія змінено"
+
+#. module: fleet_vehicle_service_kanban
+#: model:mail.message.subtype,description:fleet_vehicle_service_kanban.mail_message_subtype_fleet_service_user_updated
+#: model:mail.message.subtype,name:fleet_vehicle_service_kanban.mail_message_subtype_fleet_service_user_updated
+msgid "Changed Responsible"
+msgstr "Відповідального змінено"
+
+#. module: fleet_vehicle_service_kanban
+#: model:mail.message.subtype,description:fleet_vehicle_service_kanban.mail_message_subtype_fleet_service_vendor_updated
+#: model:mail.message.subtype,name:fleet_vehicle_service_kanban.mail_message_subtype_fleet_service_vendor_updated
+msgid "Changed Vendor"
+msgstr "Постачальника змінено"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,help:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services__tag_ids
+msgid ""
+"Classify and analyze your services categories like: Repair, Maintenance"
+msgstr ""
+"Класифікуйте й аналізуйте категорії послуг, наприклад: Ремонт, Технічне "
+"обслуговування"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,help:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services__stage_id
+msgid "Current state of the vehicle"
+msgstr "Поточний стан транспортного засобу"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,help:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_stage__fold
+msgid "If True this stage is folded in the kanban view."
+msgstr "Якщо істина, цей етап згорнуто в Kanban-представленні."
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model,name:fleet_vehicle_service_kanban.model_fleet_vehicle_log_services_tag
+msgid "Services Tags"
+msgstr "Теги послуг"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.constraint,message:fleet_vehicle_service_kanban.constraint_fleet_vehicle_log_services_stage_fleet_service_stage_name_unique
+msgid "Stage name already exists"
+msgstr "Назва етапу вже існує"
+
+#. module: fleet_vehicle_service_kanban
+#: model:ir.model.fields,help:fleet_vehicle_service_kanban.field_fleet_vehicle_log_services_stage__sequence
+msgid "Used to order the stages"
+msgstr "Використовується для впорядкування етапів"

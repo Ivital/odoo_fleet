@@ -41,3 +41,8 @@ msgstr "<span class=\"o_stat_text\"> Транспортні засоби</span>"
 #: model:ir.model.fields,help:fleet_vehicle_ownership.field_res_users__vehicle_ids
 msgid "Vehicles owned by this partner"
 msgstr "Транспортні засоби, що належать цьому контрагенту"
+
+#. module: fleet_vehicle_ownership
+#: model:ir.model.fields,help:fleet_vehicle_ownership.field_fleet_vehicle__owner_id
+msgid "Owner of the vehicle"
+msgstr "Власник транспортного засобу"

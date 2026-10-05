@@ -250,3 +250,13 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:fleet_vehicle_inspection_template.field_fleet_vehicle_inspection_template__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: fleet_vehicle_inspection_template
+#: model:ir.model,name:fleet_vehicle_inspection_template.model_fleet_vehicle_inspection_template
+msgid "Fleet Vehicle Inspection Template"
+msgstr "Шаблон перевірки транспортного засобу"
+
+#. module: fleet_vehicle_inspection_template
+#: model:ir.model,name:fleet_vehicle_inspection_template.model_fleet_vehicle_inspection_template_line
+msgid "Fleet Vehicle Inspection Template Line"
+msgstr "Рядок шаблону перевірки транспортного засобу"

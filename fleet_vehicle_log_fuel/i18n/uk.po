@@ -393,3 +393,18 @@ msgstr "Напишіть тут іншу інформацію про завер�
 #: model_terms:ir.ui.view,arch_db:fleet_vehicle_log_fuel.fleet_vehicle_view_form
 msgid "show the fuel logs for this vehicle"
 msgstr "показувати журнали пального для цього транспортного засобу"
+
+#. module: fleet_vehicle_log_fuel
+#: model:ir.model.fields,help:fleet_vehicle_log_fuel.field_fleet_vehicle_log_fuel__date
+msgid "Date when the cost has been executed"
+msgstr "Дата виконання витрат"
+
+#. module: fleet_vehicle_log_fuel
+#: model:ir.model,name:fleet_vehicle_log_fuel.model_fleet_vehicle_log_fuel
+msgid "Fuel log for vehicles"
+msgstr "Журнал пального транспортних засобів"
+
+#. module: fleet_vehicle_log_fuel
+#: model:ir.model.fields,help:fleet_vehicle_log_fuel.field_fleet_vehicle_log_fuel__vehicle_id
+msgid "Vehicle concerned by this log"
+msgstr "Транспортний засіб, якого стосується цей журнал"

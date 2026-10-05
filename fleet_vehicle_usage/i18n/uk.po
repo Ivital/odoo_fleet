@@ -362,3 +362,8 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:fleet_vehicle_usage.field_fleet_vehicle_usage__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: fleet_vehicle_usage
+#: model:ir.model,name:fleet_vehicle_usage.model_fleet_vehicle_usage
+msgid "Vehicle Usage"
+msgstr "Використання транспортного засобу"
